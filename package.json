@@ -1,0 +1,24 @@
+{
+  "name": "gulp-sass-livereload-foundation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/styel07/gulp-sass-livereload-foundation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/styel07/gulp-sass-livereload-foundation/issues"
+  },
+  "homepage": "https://github.com/styel07/gulp-sass-livereload-foundation#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-sass": "^2.0.4"
+  }
+}
