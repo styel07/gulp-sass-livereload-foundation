@@ -1,0 +1,36 @@
+@import 'partials/settings';
+@import 'foundation/components/grid';
+//@import 'foundation/components/buttons';
+@import 'foundation/components/top-bar';
+// @import 'foundation/components/visibility';
+// @import 'foundation/components/type';
+// @import 'foundation/components/forms';
+
+$bright : yellowgreen;
+
+body {
+  background: $bright;
+}
+
+.top-module {
+  border  : 1px solid red;
+
+
+  &#module_1:hover {
+    border : 1px solid blue;
+  }
+
+  &#module_2:hover {
+    background-color : lighten($bright, 20%);
+    // @media #{$medium-only}{
+    // }
+  }
+
+  &#module_3:hover {
+    background-color : darken($bright, 20%);
+    // @media #{$medium-only}{
+    // }
+  }
+
+}
+
